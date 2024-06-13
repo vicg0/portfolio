@@ -22,7 +22,7 @@ export function Welcome({ navigation }: WelcomeProps) {
           <p className="">Front-end </p> <p>Developer</p>
         </strong>
         <p className="w-1/2 text-neutral-600 text-center uppercase">
-          Tenho 19 anos e sou desenvolvedor frontend com 3 anos de experiência
+          Tenho 20 anos e sou desenvolvedor web com 4 anos de experiência
         </p>
 
         <div className="flex items-center gap-10">

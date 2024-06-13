@@ -12,6 +12,7 @@ export function About() {
         alt=""
         className="w-2/2 lg:w-96 rounded-full object-contain shadow-purple"
       />
+
       <div className="w-full flex flex-col gap-8">
         <span className="flex items-center gap-2">
           <CaretDoubleRight size={24} className="text-violet-600" />
@@ -19,24 +20,22 @@ export function About() {
         </span>
 
         <h1 className="tracking-widest text-3xl text-justify">
-          Desenvolvedor Front-end com experiências em React, React-native, Node
-          e JavaScript puro.
+          Desenvolvedor Front-end com experiências em <span className="text-sky-500 font-medium">{'<React/>'}</span>, <span className="text-green-600 font-medium">{'<Node/>'} </span>
+          e <span className="text-yellow-400 font-medium">{'<JavaScript/>'}</span> puro.
         </h1>
 
         <p className="text-gray-700 leading-4">
-          Meu nome é Victor, tenho 18 anos e atuo na área de desenvolvimento há
-          mais de 3 ano. Possuo experiência em diversos projetos e tecnologias,
-          mas estou buscando a minha primeira oportunidade no mercado como
-          desenvolvedor Junior.
+          Meu nome é Victor, tenho 20 anos e atuo na área de desenvolvimento há
+          mais de 4 ano. Possuo experiência em diversos projetos e tecnologias, atualmente eu 
         </p>
+
         <p className="text-gray-700 leading-5">
           Logo abaixo tem o meu currículo com informaçôes mais detalhadas sobre
-          mim. Se preferir, podemos marcar uma call atráves do meu e-mail que
-          está disponibilizado.
+          mim. Para mais detalhes, entrem em contato.
         </p>
 
         <div className="flex justify-center lg:justify-start items-center gap-5 lg:gap-10">
-          <a href="document/CV.pdf" download="Currículo">
+            <a href="document/CV.pdf" download="Currículo">
             <Button
               placeholder="Baixar CV"
               icon={<DownloadSimple size={32} />}

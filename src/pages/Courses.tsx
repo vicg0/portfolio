@@ -33,6 +33,7 @@ export function Courses() {
             certificate="etec.pdf"
             download="Certificado ETEC"
           />
+          
           <CardCourses
             subtitle="Análise e Desenvolvimento de Sistemas"
             text="Nesta faculdade é onde estou aprendendo a seu um desenvolvedor de verdade, não apenas focando em programação, mas também, em análise de sistemas. Em apenas um semestre foi o suficiente para eu aprender diversas coisas no universo de Tecnologia da informação. Atualmente estou cursando o 2º semestre e estagiando na Elera."
